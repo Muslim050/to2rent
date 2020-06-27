@@ -1,0 +1,321 @@
+@media(max-width:1220px){
+    /*popular*/
+    .popular__item{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .popula__img{
+        width: 400px;
+        height: 400px;
+    }
+    /*popular*/
+
+    /*apartment*/
+    .apartment{
+        min-height: 80vh;
+    }
+    /*apartment*/
+
+
+}
+
+@media(max-width:1140px){
+    /*about*/
+    .about__inner{
+        justify-content: space-evenly;
+    }
+    .about__blog{
+        display: block;
+    }
+    .about__reviews{
+        margin-top: 50px;
+        width: 100%;
+    }
+    /*about*/
+
+    .about__manager {
+        margin-right: 35px;
+        margin-bottom: 50px;
+    }
+    .about__reviews-item{
+        text-align: center;
+    }
+
+    .about__reviews-text {
+        width: 100%;
+    max-width: 400px;
+        margin: 0 auto;
+    }
+    .about__reviews-link{
+        margin-top: 29px;
+        display: inline-block;
+    }
+
+    /*footer*/
+    .footer__top{
+        padding: 0px 0 50px;
+    }
+
+    .footer__menu-list{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer__top-inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__menu{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+@media(max-width:992px){
+    /*search*/
+    .search__form{
+        flex-wrap: wrap;
+    }
+    .search__form-label{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 0;
+        text-align: center;
+    }
+    /*search*/
+
+    /*popular*/
+    .popula__img{
+        width: 280px;
+        height: 280px;
+    }
+    .popular__inner{
+        padding: 40px 0;
+    }
+    /*popular*/
+
+    /*reason*/
+    .reason{
+        padding: 0 0 50px;
+    }
+    .reason__item{
+        width: 100%;
+    }
+    .reason__title:before{
+        width: 50px;
+        height: 50px;
+        background-size:cover;
+        top: 50%;
+        transform:translateY(-50%);
+    }
+    .reason__title{
+        min-height: 60px;
+        padding-left: 60px;
+    }
+    /*reason*/
+
+    /*apartment*/
+    .apartment{
+        min-height: 600px;
+    }
+    /*apartment*/
+
+    /*footer*/
+    .footer__form{
+        flex-direction: column;
+    }
+    .footer__form-label {
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .footer__form-input{
+        margin-bottom: 15px;
+        text-align: center;
+        width: 300px;
+    }
+}
+
+
+
+@media(max-width:768px){
+    /*header*/
+    .logo__link-img{
+        max-width: 250px;
+    }
+    .header__logo {
+        padding: 40px 0 30px;
+    }
+    .menu__list-link {
+        padding: 24px 10px 28px;   
+    }
+    /*header*/
+
+    /*slider*/
+    .slider__item{
+        min-height: 400px;
+    }
+    /*slider*/
+
+    /*popular*/
+    .popular__item{
+        width: 100%;
+    }
+    /*popular*/
+
+    /*apartment*/
+    .apartment{
+        min-height: 400px;
+    }
+    /*apartment*/
+
+   
+
+}
+
+
+@media(max-width:600px){
+    /*header*/
+    .menu__list{
+        display: block;
+        border-bottom: 1px solid #c4c4c4;
+    }
+    .menu__list-item {
+        width: 100%;
+        border-top: 1px solid #c4c4c4;
+        border-bottom: 1px solid #c4c4c4;
+    }
+    .menu__list-item:first-child,
+    .menu__list-item:last-child{
+        border-left: none;
+        border-right: none;
+    }
+    .menu__list-link {
+        font-size: 20px;
+        padding: 20px 10px 20px;
+    }
+    /*header*/
+
+    /*slider*/
+    .slice-prev img{
+        width: 40px;
+        height: 40px;
+    }
+    .slice-next img{
+        width: 40px;
+        height: 40px;
+    }
+    /*slider*/
+
+    /*search*/
+    .search__form{
+        padding: 0 10px;
+    }
+    .search__form-input{
+        width: 65%;
+    }
+    /*search*/
+
+    /*popular*/
+    .popular__title {
+        font-size: 42px;
+        line-height: 36px;
+    }
+    .popular__inner {
+        padding: 40px 0;
+    }
+    /*popular*/
+
+    /*reason*/
+    .reason__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    /*reason*/
+    
+    /*apartment*/
+    .apartment__title{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    /*apartment*/
+
+    .about__manager {
+        margin-right: 0;
+    }
+
+
+    
+    
+}
+
+
+
+
+@media(max-width:440px){
+    /*search*/
+    .search__form-input{
+        width: 100%;
+    }
+    .search__form-btn{
+        width: 100%;
+        padding: 15px 23px 15px 36px;
+    }
+    .search__form-btn:before {
+        display: none;
+    }
+    /*search*/
+
+    /*popular*/
+    .popular__title {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    /*popular*/
+
+}
+
+@media(max-width:410px){
+    .about__blog {
+        margin-bottom: 50px;
+    }
+    .about__title {
+
+        font-size: 34px;
+        line-height: 34px;
+    }
+    .about__manager{
+        margin-bottom: 0px;
+    }
+}
+@media(max-width:380px){
+    .about__reviews {
+        margin-top: 114px;
+
+    }
+}
+
+@media(max-width:360px){
+    .about__reviews {
+        padding-top: 40px;
+
+    }
+}
+
+
+@media(max-width:360px){
+    /*popular*/
+    .popular__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    /*popular*/
+}
+
+
+
